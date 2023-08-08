@@ -51,8 +51,8 @@ def next_batch(num,frames,groupNo):
 
 print("loading data and lable ... ")
 
-DataPath="/home/guanqun/Datasets/Test_SegTrac/Test_SegTrac_VideoData.npy"
-GroundTruthPath="/home/guanqun/Datasets/Test_SegTrac/Test_SegTrac_VideoGroundTruth.npy"
+DataPath="./Datasets/Test_SegTrac/Test_SegTrac_VideoData.npy"
+GroundTruthPath="./Datasets/Test_SegTrac/Test_SegTrac_VideoGroundTruth.npy"
 
 Data=np.load(DataPath)
 GroundTruth=np.load(GroundTruthPath)
